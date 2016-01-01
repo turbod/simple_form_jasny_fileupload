@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Norbert Toth"]
   s.email       = ["tothnorbert.zalalovo@gmail.com"]
   s.homepage    = "https://github.com/turbod/simple_form_jasny_fileupload"
-  s.summary     = "TODO: Summary of SimpleFormJasnyFileupload."
-  s.description = "TODO: Description of SimpleFormJasnyFileupload."
+  s.summary     = "Summary of SimpleFormJasnyFileupload."
+  s.description = "Description of SimpleFormJasnyFileupload."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
