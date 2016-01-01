@@ -1,3 +1,24 @@
 = SimpleFormJasnyFileupload
 
-This project rocks and uses MIT-LICENSE.
+This is a [SimpleForm](https://github.com/plataformatec/simple_form) file upload input with [Jasny Bootstrap Fileupload](http://www.jasny.net/bootstrap/javascript/#fileinput) field, and Carrierwave.
+
+= How it works
+
+== Install
+
+Add to your Gemfile the following:
+
+```
+gem 'simple_form_jasny_fileupload', '~> 0.0.5', git: 'git://github.com/turbod/simple_form_jasny_fileupload.git'
+```
+
+You have to add Jasny javascript and css files to your project.
+
+== Usage
+
+```
+<%= f.input :logo, as: :jasnyfile, label: false %>
+```
+
+
+This project rocks and uses MIT-LICENSE. 
