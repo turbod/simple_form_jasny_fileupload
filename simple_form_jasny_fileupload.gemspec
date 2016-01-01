@@ -7,9 +7,9 @@ require "simple_form_jasny_fileupload/version"
 Gem::Specification.new do |s|
   s.name        = "simple_form_jasny_fileupload"
   s.version     = SimpleFormJasnyFileupload::VERSION
-  s.authors     = [""]
-  s.email       = [""]
-  s.homepage    = "TODO"
+  s.authors     = ["Norbert Toth"]
+  s.email       = ["tothnorbert.zalalovo@gmail.com"]
+  s.homepage    = "https://github.com/turbod/simple_form_jasny_fileupload"
   s.summary     = "TODO: Summary of SimpleFormJasnyFileupload."
   s.description = "TODO: Description of SimpleFormJasnyFileupload."
   s.license     = "MIT"
@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "simple_form", "~> 3.1"
+  s.add_dependency "carrierwave"
 
   s.add_development_dependency "sqlite3"
 end
