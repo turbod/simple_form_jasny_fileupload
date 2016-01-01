@@ -1,7 +1,5 @@
 # app/inputs/jasnyfile_input.rb
 module SimpleFormJasnyFileupload
-  included do
-  end  
 
   class JasnyfileInput < SimpleForm::Inputs::Base
     def input(wrapper_options=nil)
