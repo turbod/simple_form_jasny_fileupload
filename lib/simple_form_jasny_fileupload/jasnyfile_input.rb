@@ -3,7 +3,7 @@ module SimpleFormJasnyFileupload
   included do
   end  
 
-  class JasnyfileinputInput < SimpleForm::Inputs::Base
+  class JasnyfileInput < SimpleForm::Inputs::Base
     def input(wrapper_options=nil)
       class_name = object[attribute_name] ? 'fileinput-exists' : 'fileinput-new'
       template.content_tag(:div, class: "fileinput #{class_name}", data: { provides: "fileinput" }) do
