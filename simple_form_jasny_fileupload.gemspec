@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["tothnorbert.zalalovo@gmail.com"]
   s.homepage    = "https://github.com/turbod/simple_form_jasny_fileupload"
   s.summary     = "Summary of SimpleFormJasnyFileupload."
-  s.description = "Description of SimpleFormJasnyFileupload."
+  s.description = "SimpleForm file upload input, formatted with Jasny Bootstrap Fileupload field, the file uploads are handled by Carrierwave."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
