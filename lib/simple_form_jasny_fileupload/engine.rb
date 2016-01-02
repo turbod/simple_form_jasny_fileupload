@@ -1,3 +1,4 @@
 module SimpleFormJasnyFileupload
-  VERSION = "0.0.7"
+  class Engine < Rails::Engine
+  end
 end
