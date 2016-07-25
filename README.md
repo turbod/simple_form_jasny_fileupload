@@ -8,7 +8,6 @@ This is a [SimpleForm](https://github.com/plataformatec/simple_form) file upload
 
 Install the following gems and assets.
 - [simple_form](https://github.com/plataformatec/simple_form)
-- [carrierwave](https://github.com/carrierwaveuploader/carrierwave)
 - [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
 - [jasny bootstrap](http://www.jasny.net/bootstrap)
 
@@ -17,10 +16,11 @@ Install the following gems and assets.
 Add to your Gemfile the following:
 
 ```
-gem 'simple_form_jasny_fileupload', git: 'git://github.com/turbod/simple_form_jasny_fileupload.git'
+gem 'simple_form_jasny_fileupload'
 ```
 
-You have to add Jasny javascript and css files to your project.
+- Install bootstrap sass version.
+- You have to add Jasny javascript and css files to your project.
 
 ## Usage
 
@@ -28,5 +28,15 @@ You have to add Jasny javascript and css files to your project.
 <%= f.input :logo, as: :jasnyfile, label: false %>
 ```
 
+
+## I18n
+
+```yml
+en:
+  sfj_fileupload:
+    change_label: Change
+    select_label: Select file
+    remove_label: Remove
+```
 
 This project rocks and uses MIT-LICENSE. 
