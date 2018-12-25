@@ -12,4 +12,6 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
-
+#gem 'sprockets', '>= 2.12.5'
+#gem "activesupport", ">= 4.1.11"
+#gem "rack", ">= 1.6.11"
