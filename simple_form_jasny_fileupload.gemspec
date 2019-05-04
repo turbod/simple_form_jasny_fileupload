@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "simple_form"
-  s.add_dependency "bootstrap-sass"
+  s.add_dependency "bootstrap-sass", ">= 3.4.1"
 
 end
